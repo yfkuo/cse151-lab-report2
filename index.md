@@ -1,4 +1,4 @@
-##Part 1
+## Part 1
 
 **Code for StringServer:**
 
@@ -44,6 +44,8 @@ class StringServer {
 }
 ```
 
+
+
 **Screenshot for `/add-message?s=Hello`:**
 
 ![Image](hello.png)
@@ -64,6 +66,8 @@ class StringServer {
   - `stringChecked` after "UTF-8" is decode from `stringStorage`.
   - `UnsupportedEncodingException e` catches unsupported character encoding when using URLDecoder.decode(). The part for `try` and `catch` is to check and return input strings without having '+' for the spaces.
   - If no values got change, which means no additional requests were made by `/add-message?s=<string>`. Then no additional change would be made to the values or pass as arguments, which the output will remain the same as the previous output.
+
+
 
 **Screenshot for `/add-message?s=How are you`:**
 
@@ -88,12 +92,12 @@ class StringServer {
 
 
 
-##Part 2
+## Part 2
 Using the command line, show with `ls` and take screenshots of:
 - The path to the private key for your SSH key for logging into `ieng6` (on your computer or on the home directory of the lab computer)
 - The path to the public key for your SSH key for logging into `ieng6` (within your account on `ieng6`)
 - A terminal interaction where you log into `ieng6` with your course-specific account without being asked for a password.
 
-##Part 3
+## Part 3
 - In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before:
   I learn how to make webserver and how to easily log into `ieng6`.
