@@ -54,8 +54,8 @@ class StringServer {
   The handleRequest method in Handler class is called.
   
 - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-  The relevant arguments to those methods: URI url, UnsupportedEncodingException e.
-  The values of any relevant fields of the class: num, stringStorage, query, message, stringChecked.
+  - The relevant arguments to those methods: URI url, UnsupportedEncodingException e.
+  - The values of any relevant fields of the class: num, stringStorage, query, message, stringChecked.
 
 - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
   When we request `/add-message?s=Hello`, it would be passed into `handleRequest(URI url)` as the argument of `URI url`.
@@ -77,8 +77,8 @@ class StringServer {
   The handleRequest method in Handler class is called.
   
 - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-  The relevant arguments to those methods: URI url, UnsupportedEncodingException e.
-  The values of any relevant fields of the class: num, stringStorage, query, message, stringChecked.
+  - The relevant arguments to those methods: URI url, UnsupportedEncodingException e.
+  - The values of any relevant fields of the class: num, stringStorage, query, message, stringChecked.
 
 - How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
   When we request `/add-message?s=Hello`, it would be passed into `handleRequest(URI url)` as the argument of `URI url`.
