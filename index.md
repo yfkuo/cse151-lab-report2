@@ -95,8 +95,11 @@ class StringServer {
 ## Part 2
 Using the command line, show with `ls` and take screenshots of:
 - The path to the private key for your SSH key for logging into `ieng6` (on your computer or on the home directory of the lab computer)
+  - ![Image](privateKey.png)
 - The path to the public key for your SSH key for logging into `ieng6` (within your account on `ieng6`)
+  - ![Image](publicKey.png)
 - A terminal interaction where you log into `ieng6` with your course-specific account without being asked for a password.
+  - ![Image](noPassword.png)
 
 ## Part 3
 - In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before:
