@@ -51,7 +51,7 @@ class StringServer {
 ![Image](hello.png)
 
 - Which methods in your code are called?
-  The handleRequest method in Handler class is called.
+  - The handleRequest method in Handler class is called.
   
 - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
   - The relevant arguments to those methods: URI url, UnsupportedEncodingException e.
@@ -74,7 +74,7 @@ class StringServer {
 ![Image](howareyou.png)
 
 - Which methods in your code are called?
-  The handleRequest method in Handler class is called.
+  - The handleRequest method in Handler class is called.
   
 - What are the relevant arguments to those methods, and the values of any relevant fields of the class?
   - The relevant arguments to those methods: URI url, UnsupportedEncodingException e.
@@ -103,4 +103,4 @@ Using the command line, show with `ls` and take screenshots of:
 
 ## Part 3
 - In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before:
-  I learn how to make webserver and how to easily log into `ieng6`.
+  - I learned how to connect to a remote server without needing to enter any passwords.
